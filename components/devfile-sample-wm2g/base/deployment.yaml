@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-wm2g
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/stonesoup_perfscale/ci10t-786-0030-tenant/ci10t-786-0030-app/devfile-sample-wm2g@sha256:fe7765a61e8433926e70e6c0ebede901e9b6973c5e0acf899bd54ff84bf55cb2
         name: my-nodejs
         ports:
         - containerPort: 3001
